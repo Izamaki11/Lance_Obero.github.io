@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lance Jaeron Alambra Obero- Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #4a95e6; 
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2c6cb0;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 50px 20px;
+        }
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            border-bottom: 2px solid white;
+            padding-bottom: 10px;
+        }
+        #about p {
+            font-size: 1.2em;
+            line-height: 1.6em;
+        }
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .project-grid article {
+            background-color: #0056b3;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .project-grid article h3 {
+            margin-top: 0;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px 0;
+        }
+        #contact a {
+            color: white;
+            text-decoration: none;
+        }
+        #contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lance Jaeron Obero</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Hi! I'm Lance Jaeron Alambra Obero, a BSIT Student. I have a passion for web developing and love to work on creative projects. I'm skilled in various programming languages and tools that help me bring ideas to life.
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <article>
+                    <h3>Gamball</h3>
+                    <p>“Gamball” Is a game that made to provide entertainment to the player with gambling. The game will provide 3 cups and an imaginary ball, The “ball” will be in one of the cups. You will bet in one of the cups, and as you win, credit will be added to your balance.
+                    </p>
+                </article>
+                <article>
+                    <h3>Math Mastermind</h3>
+                    <p>"Math Mastermind" is game that let you choose 3 types of difficulty and 4 types of operation,this game will provide random number according to difficulty that you choose, and the operation will be also the one you choose. </p>
+                </article>
+                <article>
+                    <h3>Financial Helper</h3>
+                    <p>We made an HTML program that helps user to track their expenses to know where their money is going.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming: HTML, CSS, JavaScript, Python</li>
+                <li>Frameworks: React, Node.js</li>
+                <li>Tools: Git, Docker, Jenkins</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:yourname@example.com">laal.obero.up@phinmed.com</a></p>
+            <p>Phone: <a href="tel:+639923776907">+639923776907</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/lancejaeronobero?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">www.linkedin.com/in/
+                LanceJaeronObero</a></p>
+        </section>
+    </main>
+</body>
+</html>
